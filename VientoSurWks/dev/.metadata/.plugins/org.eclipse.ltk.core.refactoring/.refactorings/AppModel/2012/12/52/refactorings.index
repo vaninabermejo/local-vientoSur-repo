@@ -1,2 +1,5 @@
 1356009677666	Rename resource 'ApplicationContext.xml'
 1356010597021	Rename resource 'application.properties'
+1356012930907	Delete element
+1356012981363	Move compilation unit
+1356013293282	Move 1 resources to 'resources'

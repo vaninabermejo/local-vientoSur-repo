@@ -12,7 +12,7 @@
 
 	<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 
-	<jpa:repositories base-package="com.statefarm.hims.domain.repository" />
+	<jpa:repositories base-package="com.vientoSur.model.domain.repository" />
 
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">

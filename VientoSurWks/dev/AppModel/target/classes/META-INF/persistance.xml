@@ -7,12 +7,12 @@
 	<persistence-unit name="wctemplatePU"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>com.vientoSur.model.model.Category</class>
-		<class>com.vientoSur.model.model.Inventory</class>
-		<class>com.vientoSur.model.model.InventoryItem</class>
-		<class>com.vientoSur.model.model.Picture</class>
-		<class>com.vientoSur.model.model.Location</class>
-		<class>com.vientoSur.model.model.User</class>
+		<class>com.vientoSur.model.model.domain.Category</class>
+		<class>com.vientoSur.model.model.domain.Inventory</class>
+		<class>com.vientoSur.model.model.domain.InventoryItem</class>
+		<class>com.vientoSur.model.model.domain.Picture</class>
+	
+		<class>com.vientoSur.model.model.domain.User</class>
 		<exclude-unlisted-classes />
 		<properties>
 		  <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider" />
