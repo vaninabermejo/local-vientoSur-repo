@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	   http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-2.5.xsd 
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-autowire="byName">
+	<aop:aspectj-autoproxy />
+
+	<context:component-scan base-package="com.vientoSur.services">
+	    		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Service" />
+	</context:component-scan>
+
+	<context:component-scan base-package="com.vientoSur.services.impl">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Service" />
+	</context:component-scan>
+
+<!-- 	<bean id="picturesPath" class="java.lang.String" factory-method="valueOf"> -->
+<!-- 		<constructor-arg value="${pictures.path}" /> -->
+<!-- 	</bean> -->
+
+	
+
+	<bean id="cacheAspect"
+		class="com.vientoSur.common.cache.aop.MethodCacheAspect" />
+
+	<bean id="profileAspect"
+		class="com.razorfish.blueprint.common.profile.aop.MethodProfiler" />
+
+	<!-- Every placeholder goes through the following resolution process. Once 
+		a value is found it’s set and the next placeholder is resolved: (optional) 
+		Property value specified as a system or environment property; useful for 
+		overriding specific placeholders (e.g. -Djdbc.host=devdb / -Djdbc.username=carbon5) 
+		(optional) Properties file located by the system/environment variable called 
+		“config”; useful for externalizing configuration. All URL types are supported 
+		(e.g. -Dconfig=c://hmc.properties). (optional) Properties file identified 
+		by classpath:local-config.properties; useful for specific developer overrides. 
+		(required) Properties file identified by classpath:configuration.properties, 
+		which contains default settings for our application. the valueSeparator, 
+		value = ? is for default values like ${myBeanValue?DefaultValue} -->
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="ignoreResourceNotFound" value="true" />
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="valueSeparator" value="?" />
+		<property name="locations">
+			<list>
+				<value>classpath:configuration.properties</value>
+				<value>classpath:local-config.properties</value>
+				<value>${config}</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="cacheManager"
+		class="com.vientoSur.common.cache.config.bean.EhCacheConfigurableManagerFactoryBean">
+		<property name="configLocation">
+			<value>classpath:ehcache.xml</value>
+		</property>
+		<property name="shared">
+			<value>true</value>
+		</property>
+	</bean>
+
+	<bean id="servicesCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+		<property name="cacheManager">
+			<ref bean="cacheManager" />
+		</property>
+		<property name="cacheName">
+			<value>servicesCache</value>
+		</property>
+	</bean>
+
+	<!-- mail configuration -->
+	<bean id="emailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="${emailSender.host}" />
+		<property name="port" value="${emailSender.port}" />
+		<property name="username" value="${emailSender.username}" />
+		<property name="password" value="${emailSender.password}" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">${mail.smtp.auth}</prop>
+				<prop key="mail.smtp.starttls.enable">${mail.smtp.starttls.enable}</prop>
+				<prop key="mail.smtp.timeout">${mail.smtp.timeout}</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="emailHelper" class="com.vientoSur.common.email.EmailHelper">
+		<property name="emailSender" ref="emailSender" />
+	</bean>
+
+<!-- 		<bean id="newSessionTrackingFilter" -->
+<!-- 		class="com.razorfish.blueprint.web.filter.NewSessionTrackingFilter" /> -->
+
+
+</beans>
+    

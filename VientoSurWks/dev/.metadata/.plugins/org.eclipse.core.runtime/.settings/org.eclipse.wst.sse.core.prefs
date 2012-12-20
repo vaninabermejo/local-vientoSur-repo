@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=AppModel,AppServices,Common,Servers,Web
+task-tag-projects-already-scanned=AppModel,AppServices,Common,Servers,Web,RemoteSystemsTempFiles

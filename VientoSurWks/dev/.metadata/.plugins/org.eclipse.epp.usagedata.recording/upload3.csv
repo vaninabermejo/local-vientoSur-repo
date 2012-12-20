@@ -1,0 +1,245 @@
+what,kind,bundleId,bundleVersion,description,time
+resolved,bundle,org.eclipse.jgit,2.2.0.201212191652,"org.eclipse.jgit",1356012323461
+resolved,bundle,org.eclipse.jgit.ui,2.2.0.201212191652,"org.eclipse.jgit.ui",1356012323461
+resolved,bundle,org.eclipse.jgit.iplog,2.2.0.201212191652,"org.eclipse.jgit.iplog",1356012323461
+resolved,bundle,org.eclipse.jgit.pgm,2.2.0.201212191652,"org.eclipse.jgit.pgm",1356012323461
+resolved,bundle,org.eclipse.egit.core,2.2.0.201212192312,"org.eclipse.egit.core",1356012323464
+resolved,bundle,org.eclipse.rse.services.ssh,3.1.1.R33x_v201107181530,"org.eclipse.rse.services.ssh",1356012323464
+resolved,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1356012323464
+resolved,bundle,org.eclipse.tm.terminal.ssh,2.1.0.v201101042155,"org.eclipse.tm.terminal.ssh",1356012323465
+resolved,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1356012323558
+resolved,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1356012323610
+resolved,bundle,org.eclipse.mylyn.team.cvs,3.8.2.v20120916-1200,"org.eclipse.mylyn.team.cvs",1356012323612
+resolved,bundle,org.eclipse.team.cvs.ssh2,3.2.300.I20110511-0800,"org.eclipse.team.cvs.ssh2",1356012323616
+resolved,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1356012323618
+resolved,bundle,org.eclipse.rse.connectorservice.ssh,2.1.200.v201101042155,"org.eclipse.rse.connectorservice.ssh",1356012323623
+resolved,bundle,org.eclipse.rse.subsystems.terminals.ssh,1.0.100.v201101042155,"org.eclipse.rse.subsystems.terminals.ssh",1356012323624
+resolved,bundle,org.eclipse.rse.subsystems.shells.ssh,2.1.300.v201101042155,"org.eclipse.rse.subsystems.shells.ssh",1356012323624
+resolved,bundle,org.eclipse.rse.subsystems.files.ssh,2.1.200.v201101042155,"org.eclipse.rse.subsystems.files.ssh",1356012323627
+resolved,bundle,org.eclipse.jsch.ui,1.1.300.R37x_v20111201-1600,"org.eclipse.jsch.ui",1356012323637
+resolved,bundle,org.eclipse.egit.ui,2.2.0.201212192312,"org.eclipse.egit.ui",1356012323639
+resolved,bundle,org.eclipse.egit.mylyn.ui,2.2.0.201212192312,"org.eclipse.egit.mylyn.ui",1356012323645
+resolved,bundle,com.jcraft.jsch,0.1.44.v201101211721,"com.jcraft.jsch",1356012323645
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1356012323645
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1356012323705
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1356012323743
+started,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1356012323746
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1356012323799
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012323851
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012323855
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012323861
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012323864
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324081
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324084
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324086
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324089
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324092
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324094
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324097
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324100
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324103
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324106
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324109
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324111
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324115
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324118
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324121
+error,log,,,"An internal error occurred during: ""Decoration Calculation"".",1356012324124
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324127
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324130
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324150
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324154
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324158
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324161
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012324166
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324169
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012324171
+error,log,,,"The command (""org.eclipse.debug.ui.commands.ToggleLineBreakpoint"") is undefined",1356012324271
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324688
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324692
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324696
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324700
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324704
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324708
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324711
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324715
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324720
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324724
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324729
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324733
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324736
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324740
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324745
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324749
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324753
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324757
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324761
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324765
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324770
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324774
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324778
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324782
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324786
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324790
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324794
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324796
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324800
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324804
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324807
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324811
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324815
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324819
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324822
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324825
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324828
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324832
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324836
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324839
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.registry"".",1356012324842
+error,log,,,"Error notifying registry change listener.",1356012324850
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325257
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325260
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325267
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325269
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325272
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325275
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325278
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325281
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325284
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325286
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325290
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325293
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325296
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325298
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325301
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325304
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325307
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325309
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325313
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325318
+error,log,,,"An internal error occurred during: ""Decoration Calculation"".",1356012325322
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1356012325325
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325327
+error,log,,,"Failed to update callback: org.eclipse.ui.newWizard",1356012325330
+error,log,,,"Unhandled event loop exception",1356012325358
+error,log,,,"An internal error occurred during: ""Decoration Calculation"".",1356012325679
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$1.doRemove: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012325748
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$1.doRemove: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012325752
+error,log,,,"Unhandled event loop exception",1356012325963
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326034
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326037
+error,log,,,"Unhandled event loop exception",1356012326242
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326454
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326457
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326467
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326471
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326819
+error,log,,,"Exception in org.eclipse.ui.internal.registry.UIExtensionTracker$2.doAdd: org.eclipse.core.runtime.InvalidRegistryObjectException: Invalid registry object",1356012326822
+started,bundle,org.eclipse.jgit,2.2.0.201212191652,"org.eclipse.jgit",1356012326895
+error,log,,,"Unhandled event loop exception",1356012326955
+started,bundle,org.eclipse.egit.core,2.2.0.201212192312,"org.eclipse.egit.core",1356012326968
+started,bundle,org.eclipse.egit.ui,2.2.0.201212192312,"org.eclipse.egit.ui",1356012327696
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327708
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327711
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327713
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327716
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327719
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327723
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327726
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327728
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327731
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327734
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327737
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327740
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327742
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327745
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327748
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327751
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327753
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327756
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327759
+error,log,,,"Undefined context while filtering dialog/window contexts",1356012327762
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1356012327788
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1356012328764
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1356012342133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1356012343947
+activated,editor,com.android.ide.eclipse.adt,21.0.0.v201210310015-519525,"com.android.ide.eclipse.editors.CommonXmlEditor",1356012346353
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1356012348386
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1356012349595
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1356012350999
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1356012358999
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.restartWorkbench",1356012359427
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1356012359529
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1356012359530
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1356012359532
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1356012359534
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1356012359535
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1356012359537
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1356012359539
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1356012359540
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1356012359541
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1356012359543
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1356012359545
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1356012359546
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.402.v201201250306,"org.eclipse.jst.ws.consumption.ui",1356012359549
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.603.v201202012024,"org.eclipse.jst.ws.consumption",1356012359551
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1356012359552
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1356012359553
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1356012359555
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1356012359557
+stopped,bundle,org.eclipse.jst.ws.uddiregistry,1.0.500.v201004211805,"org.eclipse.jst.ws.uddiregistry",1356012359558
+stopped,bundle,org.eclipse.jst.ws.ui,1.0.403.v201004211805,"org.eclipse.jst.ws.ui",1356012359560
+stopped,bundle,org.eclipse.jst.ws,1.0.509.v201108250610,"org.eclipse.jst.ws",1356012359562
+stopped,bundle,org.eclipse.wst.ws.explorer,1.0.607.v201103082002,"org.eclipse.wst.ws.explorer",1356012359564
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1356012359566
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1356012359568
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1356012359568
+stopped,bundle,org.eclipse.wst.wsi,1.0.401.v201104071820,"org.eclipse.wst.wsi",1356012359570
+stopped,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1356012359570
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1356012359570
+stopped,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1356012359570
+stopped,bundle,org.eclipse.wst.ws.parser,1.0.403.v201004211805,"org.eclipse.wst.ws.parser",1356012359571
+stopped,bundle,org.eclipse.jpt.dbws.eclipselink.ui,1.0.0.v201104110000,"org.eclipse.jpt.dbws.eclipselink.ui",1356012359573
+stopped,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1356012359576
+stopped,bundle,org.eclipse.jst.ws.jaxws.core,1.0.100.v201104031139,"org.eclipse.jst.ws.jaxws.core",1356012359578
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.bugzilla.ui",1356012359578
+stopped,bundle,org.eclipse.mylyn.bugzilla.core,3.8.2.v20120916-1200,"org.eclipse.mylyn.bugzilla.core",1356012359578
+stopped,bundle,org.eclipse.mylyn.commons.xmlrpc,3.8.2.v20120916-1200,"org.eclipse.mylyn.commons.xmlrpc",1356012359579
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws.ui,1.2.3.v201112061438,"org.eclipse.datatools.enablement.oda.ws.ui",1356012359582
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws,1.2.3.v201112061438,"org.eclipse.datatools.enablement.oda.ws",1356012359583
+stopped,bundle,org.eclipse.wst.wsdl,1.2.202.v201108230355,"org.eclipse.wst.wsdl",1356012359585
+stopped,bundle,org.eclipse.wst.wsdl.validation,1.1.502.v201104071820,"org.eclipse.wst.wsdl.validation",1356012359585
+stopped,bundle,org.eclipse.wst.xsl.exslt.ui,1.0.0.v201006012005,"org.eclipse.wst.xsl.exslt.ui",1356012359587
+stopped,bundle,org.eclipse.wst.xsl.jaxp.debug.ui,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.debug.ui",1356012359588
+stopped,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1356012359588
+stopped,bundle,org.eclipse.wst.xml.xpath.ui,1.1.100.v201105030025,"org.eclipse.wst.xml.xpath.ui",1356012359590
+stopped,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1356012359590
+stopped,bundle,org.eclipse.wst.xsl.jaxp.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.launching",1356012359591
+stopped,bundle,org.eclipse.wst.xsl.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.launching",1356012359593
+stopped,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1356012359593
+activated,perspective,org.eclipse.jst.j2ee.ui,,"org.eclipse.jst.j2ee.J2EEPerspective",1356012386232
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1356012386234
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1356012386235
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1356012386236
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1356012386237
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1356012386239
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1356012386241
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1356012386243
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1356012386245
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1356012386245
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1356012386247
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1356012386249
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1356012386251
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1356012386253
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1356012386255
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1356012386256
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1356012386258
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1356012386260
+started,bundle,org.eclipse.emf.common,2.7.0.v20120127-1122,"org.eclipse.emf.common",1356012386260
+started,bundle,org.eclipse.emf.common.ui,2.7.0.v20120130-0943,"org.eclipse.emf.common.ui",1356012386260
+started,bundle,org.eclipse.emf.ecore,2.7.0.v20120127-1122,"org.eclipse.emf.ecore",1356012386260
+started,bundle,org.eclipse.emf.ecore.xmi,2.7.0.v20120127-1122,"org.eclipse.emf.ecore.xmi",1356012386262
+started,bundle,org.eclipse.emf.edit,2.7.2.v20120130-0943,"org.eclipse.emf.edit",1356012386262
+started,bundle,org.eclipse.emf.edit.ui,2.7.0.v20120130-0943,"org.eclipse.emf.edit.ui",1356012386262
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1356012386262

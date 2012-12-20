@@ -1,0 +1,68 @@
+##### This file contains configuration properties for the core application#####
+#####                                                                     ##### 
+##### NOTE: Each of the properties in this file can be overridden using   ##### 
+#####       JVM arguments at server startup. For instance, specifying     ##### 
+#####       -Dhibernate.show_sql=false in the server startup will set the #####
+#####       'hibernate.show_sql' property to a value of 'false'           #####
+#####                                                                     #####
+
+# This is the database connection config
+hibernate.driverClassName=org.postgresql.Driver
+hibernate.url=jdbc:postgresql://localhost:5432/hims
+hibernate.username=hims
+hibernate.password=hims
+#paths
+pictures.path=/data/ebs/www/temp/images
+#thumbnails config
+thumbnails.path=/data/ebs/www/temp//thumbnails
+thumbnails.width=170
+thumbnails.height=118
+image.width=960
+image.height=639
+
+defaultCategoryName=Miscellaneous
+defaultInventoryName=My Home Inventory
+
+#default user generation config
+defaultSFPrefix=sf
+defaultGeneratedName=test
+
+#viewing sizes
+pageSize=20
+picturesPageSize=24
+packagingPageSize=20
+labelContentSize=7
+
+#email configuration
+emailSender.host=smtp.gmail.com
+emailSender.port=587
+emailSender.username=hims.sf.2012@gmail.com
+emailSender.password=hims.2012.sf
+emailSender.home.index=State Farm HomeIndex Admin <noreply@statefarmhomeindex.com>
+
+#javaMailproperties
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=8500
+
+#redirect config.
+#dev: https://online2.tcidv.statefarm.com/dashboard/index.xhtml
+#prod: https://online2.statefarm.com/dashboard/index.xhtml
+redirect.homepage=https://online2.statefarm.com/dashboard/index.xhtml
+
+#logout Page
+desktop.logout.redirect=http://www.statefarm.com/logoff/logoff.asp
+mobile.logout.redirect=https://m.statefarm.com/#/login
+
+#logout TimeOut Page 
+desktop.timeout.logout.redirect=http://www.statefarm.com/logoff/logoff.asp
+mobile.timeout.logout.redirect=https://m.statefarm.com/#/login
+
+singlelogon.sharedkey=MWEqYB9lrYbqiaio2ln9+Bf83u9tnmoS
+#timeout in secs
+singlelogon.timeout=600
+singlelogon.statictext=statefarm
+session.expired=index
+
+#pages to exclude for timeout
+securePages=rflogin.html,userLogin.html,sessionExpired.html,singlesignon.html,index.html
